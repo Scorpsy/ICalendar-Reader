@@ -9,6 +9,23 @@ import copy
 
 
 
+def read_file(filename, start_date, end_date):
+    file_reader = open(filename,'r')
+
+
+
+def format_dates(begin, end, place, activity):
+    event = ["","","","","",""]
+
+
+
+def format_dates_rrule(begin, end,freq_end, place, activity):
+    event = ["","","","","",""]
+
+
+def print_events(data):
+    return 0
+
 def main():
 
     parser = argparse.ArgumentParser()
